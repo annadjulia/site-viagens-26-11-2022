@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Outfit;
+    color: #fff;
+    font-size: 5.128vw;
+}
+
+body{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        display: block;
+        height: 100%;
+        width: 100%;
+        background-image: url(./media/baloes.jpg);
+    }
+
+    .fundo{
+        height: 203.865vw;
+    }
+
+    .backLogin{
+        width: 100%;
+        height: 116.410vw;
+        background: rgba(5, 67, 181, 0.65);
+        border-bottom: 2.564vw solid #FF6B00;
+        border-top: 2.564vw solid #FF6B00;
+        margin-top: 51.282vw;
+    }
+
+    .quadroLogin{
+        width: 86.154vw;
+        height: 106.667vw;
+        margin: 0vw auto 0vw;
+    }
+
+    .logoLogin{
+        width: 61.795vw;
+        margin-left: 12vw;
+    }
+
+    .botaoInsert{
+        width: 100%;
+        height: 12.564vw;
+        background-color: white;
+        box-shadow: 0px 0px 1.5vw rgba(0, 0, 0, 0.4);
+        border-radius: 1.282vw;
+        margin-bottom: 3.590vw;
+    }
+
+    .botaoInsert p{
+        float: right;
+        color: #848484;
+        margin: 3.077vw 3.077vw 0;
+    }
+
+    .laranja{
+        background-color: #FF6B00;
+    }
+
+    .laranja p{
+        margin: 2vw 0 0;
+        float: none;
+        color: #fff;
+        font-size: 6.410vw;
+        text-align: center;
+    }
+
+    .downText1{
+        position: absolute;
+        text-align: center;
+        width: 86.154vw;
+        bottom: 101vw;
+    }
+    
+    .downText2{
+        position: absolute;
+        text-align: center;
+        width: 86.154vw;
+        bottom: 77vw;
+    }
+
+    .quadroIcons{
+        margin: 11vw auto 0;
+        width: 47.949vw;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+
+    .icon{
+        width: 17.949vw;
+    }
+
+
+    
+/*main page*/
+    .body{
+        background-image: none;
+        padding-left: 7vw;
+        padding-right: 7vw;
+        padding-top: 38.462vw;
+    }
+
+    .top{
+        width: 100vw;
+        height: 21vw;
+        top: 0;
+        left: 0;
+        position: fixed;
+        background-color: #0543B5;
+    }
+
+    .perfilMenu{
+        width: 16vw;
+        border-radius: 50%;
+        border: 1vw solid #FF6B00;
+        margin-top: 3vw;
+        margin-left: 7vw;
+    }
+
+    .logoMenu{
+        width: 33.85vw;
+        float: right;
+        margin-top: 4vw;
+        margin-right: 7vw;
+    }
+
+    .pesquisar{
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 13vw;
+        background-color: #fff;
+        box-shadow: 0px 0px 4vw rgba(0, 0, 0, 0.15);
+        margin-top: 21vw;
+        position: fixed;
+    }
+
+    .pesquisar p{
+        color: #0543B5;
+        font-size: 6vw;
+        float: left;
+        margin-top: 3vw;
+        margin-left: 7vw;
+    }
+
+    .pesquisar img{
+        width: 6.923vw;
+        float: right;
+        margin-right: 7vw;
+        margin-top: 3.333vw;
+    }
+
+    .tituloMenu p{
+        height: 10.256vw;
+        background-color: #FF6B00;
+        box-shadow: 0px 0px 6.4vw rgba(0, 0, 0, 0.1);
+        border-radius: 1.282vw;
+        width: fit-content;
+        font-size: 6.4vw;
+        padding: 1vw 2.3vw 0;
+        margin-bottom: 3vw;
+    }
+
+    .gridViajantes{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto auto;
+        margin-bottom: 6vw;
+    }
+
+    .gridViajantes img{
+        width: 23.846vw;
+        border-radius: 50%;
+        border: 1.5vw solid #FF6B00;
+        margin-left: 2.5vw;
+    }
+
+    .gridViajantes p{
+        font-size: 5.9vw;
+        color: #FF6B00;
+        text-align: center;
+    }
+
+    .gridDestinos{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 4.872vw;
+        margin-bottom: 8vw;
+    }
+
+    .gridDestinos img{
+        box-shadow: 0px 0px 6.4vw rgba(0, 0, 0, 0.1);
+        border-radius: 1.282vw;
+        width: 100%;
+        position: relative;
+        z-index: 0;
+        float: left;
+    }
+
+    .divDestino{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .tituloDestino{
+        z-index: 1;
+        position: absolute;
+        float: left;
+        margin-top: 27.436vw;
+    }
+
+    .tituloDestino p{
+        height: 11.282vw;
+        background-color: #FFFFFF;
+        border-radius: 1.282vw;
+        width: fit-content;
+        font-size: 7.179vw;
+        color: #FF6B00;
+        padding: 1vw 2.3vw 0;
+        font-weight: 700;
+    }
+
+
+    
+/*profile*/
+    .bodyProfile{
+        background-image: none;
+        background-color: #0543B5;
+    }
+
+    .quadroPerfil{
+        height: 79.487vw;
+        width: 100%;
+        background-color: #FFFFFF;
+        border-bottom: 2.564vw solid #FF6B00;
+    }
+
+    .fotoPerfil{
+        width: 43.846vw;
+        border-radius: 50%;
+        border: 2vw solid #FF6B00;
+        margin: 1vw 27.949vw 0;
+        float: left;
+    }
+
+    .quadroProfile div{
+        box-shadow: none;
+    }
+
+    .quadroProfile{
+        width: 86.154vw;
+        margin: 11.538vw auto 0;
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    .botaoInsert .tagProfile{
+        float: left;
+        color: #FF6B00;
+        font-size: 5.897vw;
+    }
+    
+}
